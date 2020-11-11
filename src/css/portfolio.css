@@ -1,0 +1,7 @@
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}

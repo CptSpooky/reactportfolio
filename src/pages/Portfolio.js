@@ -1,11 +1,14 @@
 import React from 'react';
+import ProjectCard from '../components/ProjectCard'
+import Jumbotron from '../components/Jumbotron'
+import portProjects from '../projects.json'
 
-function Portfolio() {
+export default function Portfolio() {
+
     return (
-        <div>
-            <h2>Portfolio</h2>
-        </div>
+        <>
+        <Jumbotron />
+        <ProjectCard projects={portProjects}/>
+        </>
     );
 }
-
-export default Portfolio;
