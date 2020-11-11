@@ -4,11 +4,12 @@ import Jumbotron from '../components/Jumbotron'
 import portProjects from '../projects.json'
 
 export default function Portfolio() {
+    const pageHeader = [{ pageTitle: "Portfolio", pageSub:"UX and Graphic Design"}];
 
     return (
         <>
-        <Jumbotron />
-        <ProjectCard projects={portProjects}/>
+            <Jumbotron header={pageHeader}/>
+            <ProjectCard projects={portProjects}/>
         </>
     );
 }

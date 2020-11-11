@@ -3,15 +3,12 @@ import Heroimg from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
 
-export default function Jumbotron() {
+export default function Jumbotron({ header }) {
     return (
         <Heroimg fluid>
             <Container>
-            <h1>Fluid jumbotron</h1>
-            <p>
-                This is a modified jumbotron that occupies the entire horizontal space of
-                its parent.
-            </p>
+            <h1>{header[0].pageTitle}</h1>
+            <h2>{header[0].pageSub}</h2>
             </Container>
         </Heroimg>
     )

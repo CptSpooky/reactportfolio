@@ -8,3 +8,252 @@
 .btn-margin-l {
     margin-left: 1em;
 }
+
+
+/*old */
+
+/**
+ First External CSS Stylesheet
+ **/
+
+/* Semantic classes */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background: #333;
+  }
+  
+  nav {
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #eee;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 4.5em !important;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center; 
+    color: white; 
+    margin-bottom: 20px;
+    font-weight: lighter !important;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #880e4f;
+  }
+  a i{
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #007bff;
+  
+  }
+
+  ul {
+      padding-inline-start: 0px;
+      list-style-type: none;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* LP Hero Img */
+  section {
+    background-image: linear-gradient(to bottom, rgba(28, 28, 28, 0.17), #000000ba), url("https://images.unsplash.com/photo-1567353275733-1be871b8fe3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    display: flex;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #161a1f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+  }
+  
+  /** 
+  Div classes 
+  **/
+  
+  /* Nav */
+  .navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+  }
+  
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .bg-dark {
+    background-color: #2b343e !important;
+  }
+  
+  /* Hero Image */
+  .jumbotron {
+    background-image: linear-gradient(to bottom, rgba(28, 28, 28, 0.17), #000000ba), url("https://images.unsplash.com/photo-1548015617-b6a6594218fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3849&q=80");
+    background-size: cover;
+    max-height: 600px;
+    background-position: center;
+  }
+  
+  .display-4 {
+    font-size: 4.5em;
+  }
+  
+  .display-4Center {
+    text-align: center; 
+    margin-bottom: 0px;
+  }
+  
+  .pad {
+    padding-top: 2em;
+  }
+  
+  /* Flex fixes */
+  .contentFlex {
+    margin-top: 6em; 
+    margin-bottom: 6em; 
+    flex: 1 0 auto;
+  }
+  
+  .centerFlex {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .flexStart {
+    display: flex;
+  }
+  
+  .flexEnd {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Buttons */
+  .btn-outline-primary {
+    background-color: #880e4f;
+    border: none;
+    Color: white;
+  }
+  
+  .btn-primary {
+    background-color: #880e4f;
+    border: none !important;
+  }
+  
+  /* Portfolio Modals */
+  .modal.show .modal-dialog {
+    margin-top: 10em;
+  }
+  
+  .embed-responsive-16by9::before {
+    padding-top: 0px !important;
+  }
+  
+  .modalImgStyle {
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+  }
+  
+  .mr-4 {
+    margin-right: 4px !important; 
+    text-align: center;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .col-lg-4:hover .overlay {
+    opacity: .5;
+  }
+  
+  .overlay-text {
+    color: white;
+    text-align: center;
+  }
+  
+  .margin0 {
+    margin: 0px !important;
+  }
+  
+  /* About */
+  .about-img {
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 3em;
+    background-color: gainsboro;
+    border-width: 3px;
+    border-color: lightgrey;
+  }
+  
+  /* Footer Icons */
+  .fa-5x {
+    font-size: 1.5em;
+    padding-right: 1em;
+  }
+  
+  .socialIcons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  /** 
+  Media Queries
+  **/
+  @media only screen and (max-width: 575px) {
+    .col-sm-6 {
+      display: flex;
+      justify-content: center !important;
+    }
+  
+    #contact-info {
+      padding-top: 20px;
+    }
+  
+    #aboutme {
+      margin-top: 2em;
+    }
+  }
