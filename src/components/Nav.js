@@ -16,13 +16,13 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav><Link to="/reactportfolio" className="nav-item nav-link">Portfolio</Link></Nav>
+                    <Nav><Link to="/" className="nav-item nav-link">Portfolio</Link></Nav>
                     <Nav><Link to="/about" className="nav-item nav-link">About</Link></Nav>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
 
-            <Route path="/reactportfolio" exact component={Portfolio} />
+            <Route path="/" exact component={Portfolio} />
             <Route path="/about" exact component={About} />
             
 
