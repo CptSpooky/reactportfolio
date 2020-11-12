@@ -10,7 +10,7 @@
 
   ## Description
   ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
-  [App Link](https://github.com/CptSpooky/EmployeeTracker)
+  [App Link](https://cptspooky.github.io/reactportfolio/)
   ![App Img](https://user-images.githubusercontent.com/66426144/98880510-e653be00-2455-11eb-8f51-fab51b3157b4.png)
 
   This portfolio was created with basic React, and supported by Bootstrap components and CSS. 
