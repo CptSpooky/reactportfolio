@@ -1,7 +1,8 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCard'
-import Jumbotron from '../components/Jumbotron'
-import portProjects from '../projects.json'
+import ProjectCard from '../components/ProjectCard';
+import Jumbotron from '../components/Jumbotron';
+import Footer from '../components/Footer';
+import portProjects from '../projects.json';
 
 export default function Portfolio() {
     const pageHeader = [{ pageTitle: "Portfolio", pageSub:"UX and Graphic Design"}];
@@ -10,6 +11,7 @@ export default function Portfolio() {
         <>
             <Jumbotron header={pageHeader}/>
             <ProjectCard projects={portProjects}/>
+            <Footer/>
         </>
     );
 }

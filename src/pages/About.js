@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from '../components/Jumbotron';
+import Footer from '../components/Footer';
 import profilepic from '../assets/profile.png';
 
 function About() {
@@ -36,6 +37,7 @@ function About() {
                 </div>
             </div> 
         </div> 
+        <Footer />
         </>
     );
 }

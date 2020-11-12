@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Heroimg from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
